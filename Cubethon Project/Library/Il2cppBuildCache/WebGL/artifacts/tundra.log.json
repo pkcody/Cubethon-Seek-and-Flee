@@ -1,0 +1,5 @@
+{"msg":"init","dagFile":"artifacts\\tundra.dag","targets":[]}
+{"msg":"newNode","annotation":"WriteResponseFile artifacts/rsp/14345673980496895489.rsp","index":1}
+{"msg":"noderesult","annotation":"WriteResponseFile artifacts/rsp/14345673980496895489.rsp","index":1,"exitcode":0}
+{"msg":"newNode","annotation":"Il2Cpp E:/___SPR2023/SIM 455 AI/Cubethon-Seek-and-Flee/Cubethon Project/Library/Il2cppBuildCache/WebGL/Native/build.bc","index":2}
+{"msg":"noderesult","annotation":"Il2Cpp E:/___SPR2023/SIM 455 AI/Cubethon-Seek-and-Flee/Cubethon Project/Library/Il2cppBuildCache/WebGL/Native/build.bc","index":2,"exitcode":0}
