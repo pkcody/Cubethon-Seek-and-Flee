@@ -141,7 +141,8 @@ GameObject:
   - component: {fileID: 3517322633360086199}
   - component: {fileID: 3517322633360086198}
   - component: {fileID: 3517322633360086197}
-  - component: {fileID: 6083711670116844912}
+  - component: {fileID: 417774261}
+  - component: {fileID: 3338799202482500272}
   m_Layer: 0
   m_Name: Obstacle
   m_TagString: Obstacle
@@ -226,7 +227,23 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.6, y: 1, z: 0.8}
   m_Center: {x: 0.15, y: 0.1, z: -0.05}
---- !u!114 &6083711670116844912
+--- !u!54 &417774261
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3517322633360086196}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &3338799202482500272
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -235,10 +252,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 3517322633360086196}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc8bbc7bad133df48960c95e1621e433, type: 3}
+  m_Script: {fileID: 11500000, guid: f3ff593ca77778044925e9da667ee0ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  velocity: {x: 0, y: 0, z: 0}
+  rotation: 0
+  _mySpeed: 15
+  _target: {fileID: 1414236146323375590, guid: 4fb79511529ebfa41a120e2b3a3a6bcb, type: 3}
 --- !u!1 &5490678834909476775
 GameObject:
   m_ObjectHideFlags: 0
