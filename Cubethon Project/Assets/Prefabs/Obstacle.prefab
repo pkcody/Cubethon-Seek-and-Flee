@@ -257,8 +257,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocity: {x: 0, y: 0, z: 0}
   rotation: 0
-  _mySpeed: 15
-  _target: {fileID: 1414236146323375590, guid: 4fb79511529ebfa41a120e2b3a3a6bcb, type: 3}
+  _mySpeed: 7
+  _target: {fileID: 0}
 --- !u!1 &5490678834909476775
 GameObject:
   m_ObjectHideFlags: 0

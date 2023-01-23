@@ -34,7 +34,7 @@ public class KinematicSeek
         //19 character.orientation,
         //20 result.velocity)
         float angle = newOrientation(character.rotation.eulerAngles.y, result.velocity);
-        character.eulerAngles = new Vector3(0, angle, 0);
+        character.eulerAngles = new Vector3(0, angle + (-180 / Mathf.PI), 0);
         Debug.Log(angle);
 
 
@@ -72,9 +72,5 @@ public class KinematicSeek
         }
     }
 
-    void Update()
-    {
-        getSteering();
-    }
 
 }
